@@ -1,20 +1,19 @@
-import { useState } from 'react'
-import TLDrawDemo from './components/TLDrawDemo'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Drawing from "@/app/Drawing";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <TLDrawDemo />
+    element: <Drawing />,
   },
-])
+]);
 
 function App() {
   return (
     <>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

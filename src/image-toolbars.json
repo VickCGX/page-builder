@@ -1,0 +1,1442 @@
+[
+    {
+        "groupName": "Boolean",
+        "items": [
+            {
+                "name": "bulbFalse",
+                "imageUrl": "/images/boolean/bulbFalse.png"
+            },
+            {
+                "name": "bulbSmallFalse",
+                "imageUrl": "/images/boolean/bulbSmallFalse.png"
+            },
+            {
+                "name": "bulbSmallTrue",
+                "imageUrl": "/images/boolean/bulbSmallTrue.png"
+            },
+            {
+                "name": "bulbTrue",
+                "imageUrl": "/images/boolean/bulbTrue.png"
+            },
+            {
+                "name": "occupiedFalse",
+                "imageUrl": "/images/boolean/occupiedFalse.png"
+            },
+            {
+                "name": "occupiedSmallFalse",
+                "imageUrl": "/images/boolean/occupiedSmallFalse.png"
+            },
+            {
+                "name": "occupiedSmallTrue",
+                "imageUrl": "/images/boolean/occupiedSmallTrue.png"
+            },
+            {
+                "name": "occupiedTrue",
+                "imageUrl": "/images/boolean/occupiedTrue.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Coils",
+        "items": [
+            {
+                "name": "coolingCoilv_1",
+                "imageUrl": "/images/coils/coolingCoilv_1.png"
+            },
+            {
+                "name": "coolingCoilv_2",
+                "imageUrl": "/images/coils/coolingCoilv_2.png"
+            },
+            {
+                "name": "coolingCoilv_3",
+                "imageUrl": "/images/coils/coolingCoilv_3.png"
+            },
+            {
+                "name": "coolingCoilv_4",
+                "imageUrl": "/images/coils/coolingCoilv_4.png"
+            },
+            {
+                "name": "coolingCoilv_5",
+                "imageUrl": "/images/coils/coolingCoilv_5.png"
+            },
+            {
+                "name": "coolingCoilv2w_1",
+                "imageUrl": "/images/coils/coolingCoilv2w_1.png"
+            },
+            {
+                "name": "coolingCoilv2w_2",
+                "imageUrl": "/images/coils/coolingCoilv2w_2.png"
+            },
+            {
+                "name": "coolingCoilv2w_3",
+                "imageUrl": "/images/coils/coolingCoilv2w_3.png"
+            },
+            {
+                "name": "coolingCoilv2w_4",
+                "imageUrl": "/images/coils/coolingCoilv2w_4.png"
+            },
+            {
+                "name": "coolingCoilv2w_5",
+                "imageUrl": "/images/coils/coolingCoilv2w_5.png"
+            },
+            {
+                "name": "coolingCoilv2wFalse",
+                "imageUrl": "/images/coils/coolingCoilv2wFalse.png"
+            },
+            {
+                "name": "coolingCoilv2wTrue",
+                "imageUrl": "/images/coils/coolingCoilv2wTrue.gif"
+            },
+            {
+                "name": "coolingCoilv2wTrueBack",
+                "imageUrl": "/images/coils/coolingCoilv2wTrueBack.png"
+            },
+            {
+                "name": "coolingCoilvFalse",
+                "imageUrl": "/images/coils/coolingCoilvFalse.png"
+            },
+            {
+                "name": "coolingCoilvTrue",
+                "imageUrl": "/images/coils/coolingCoilvTrue.gif"
+            },
+            {
+                "name": "coolingTowerFalse",
+                "imageUrl": "/images/coils/coolingTowerFalse.png"
+            },
+            {
+                "name": "coolingTowerTrue",
+                "imageUrl": "/images/coils/coolingTowerTrue.gif"
+            },
+            {
+                "name": "electricHeatingCoil_False",
+                "imageUrl": "/images/coils/electricHeatingCoil_False.png"
+            },
+            {
+                "name": "electricHeatingCoilFalse",
+                "imageUrl": "/images/coils/electricHeatingCoilFalse.png"
+            },
+            {
+                "name": "electricHeatingCoilTrue",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue.gif"
+            },
+            {
+                "name": "electricHeatingCoilTrue_1",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue_1.png"
+            },
+            {
+                "name": "electricHeatingCoilTrue_2",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue_2.png"
+            },
+            {
+                "name": "electricHeatingCoilTrue_3",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue_3.png"
+            },
+            {
+                "name": "electricHeatingCoilTrue_4",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue_4.png"
+            },
+            {
+                "name": "electricHeatingCoilTrue_5",
+                "imageUrl": "/images/coils/electricHeatingCoilTrue_5.png"
+            },
+            {
+                "name": "filterH_1",
+                "imageUrl": "/images/coils/filterH_1.png"
+            },
+            {
+                "name": "filterH_2",
+                "imageUrl": "/images/coils/filterH_2.png"
+            },
+            {
+                "name": "filterH_3",
+                "imageUrl": "/images/coils/filterH_3.png"
+            },
+            {
+                "name": "filterH_4",
+                "imageUrl": "/images/coils/filterH_4.png"
+            },
+            {
+                "name": "filterH_5",
+                "imageUrl": "/images/coils/filterH_5.png"
+            },
+            {
+                "name": "filterV_1",
+                "imageUrl": "/images/coils/filterV_1.png"
+            },
+            {
+                "name": "filterV_2",
+                "imageUrl": "/images/coils/filterV_2.png"
+            },
+            {
+                "name": "filterV_3",
+                "imageUrl": "/images/coils/filterV_3.png"
+            },
+            {
+                "name": "filterV_4",
+                "imageUrl": "/images/coils/filterV_4.png"
+            },
+            {
+                "name": "filterV_5",
+                "imageUrl": "/images/coils/filterV_5.png"
+            },
+            {
+                "name": "heatingCoilv_1",
+                "imageUrl": "/images/coils/heatingCoilv_1.png"
+            },
+            {
+                "name": "heatingCoilv_2",
+                "imageUrl": "/images/coils/heatingCoilv_2.png"
+            },
+            {
+                "name": "heatingCoilv_3",
+                "imageUrl": "/images/coils/heatingCoilv_3.png"
+            },
+            {
+                "name": "heatingCoilv_4",
+                "imageUrl": "/images/coils/heatingCoilv_4.png"
+            },
+            {
+                "name": "heatingCoilv_5",
+                "imageUrl": "/images/coils/heatingCoilv_5.png"
+            },
+            {
+                "name": "heatingCoilv2w_1",
+                "imageUrl": "/images/coils/heatingCoilv2w_1.png"
+            },
+            {
+                "name": "heatingCoilv2w_2",
+                "imageUrl": "/images/coils/heatingCoilv2w_2.png"
+            },
+            {
+                "name": "heatingCoilv2w_3",
+                "imageUrl": "/images/coils/heatingCoilv2w_3.png"
+            },
+            {
+                "name": "heatingCoilv2w_4",
+                "imageUrl": "/images/coils/heatingCoilv2w_4.png"
+            },
+            {
+                "name": "heatingCoilv2w_5",
+                "imageUrl": "/images/coils/heatingCoilv2w_5.png"
+            },
+            {
+                "name": "heatingCoilv2wFalse",
+                "imageUrl": "/images/coils/heatingCoilv2wFalse.png"
+            },
+            {
+                "name": "heatingCoilv2wTrue",
+                "imageUrl": "/images/coils/heatingCoilv2wTrue.gif"
+            },
+            {
+                "name": "heatingCoilv2wTrueBack",
+                "imageUrl": "/images/coils/heatingCoilv2wTrueBack.png"
+            },
+            {
+                "name": "heatingCoilvFalse",
+                "imageUrl": "/images/coils/heatingCoilvFalse.png"
+            },
+            {
+                "name": "heatingCoilvTrue",
+                "imageUrl": "/images/coils/heatingCoilvTrue.gif"
+            }
+        ]
+    },
+    {
+        "groupName": "Dampers",
+        "items": [
+            {
+                "name": "damperH1",
+                "imageUrl": "/images/dampers/damperH1.png"
+            },
+            {
+                "name": "damperH2",
+                "imageUrl": "/images/dampers/damperH2.png"
+            },
+            {
+                "name": "damperH3",
+                "imageUrl": "/images/dampers/damperH3.png"
+            },
+            {
+                "name": "damperH4",
+                "imageUrl": "/images/dampers/damperH4.png"
+            },
+            {
+                "name": "damperH5",
+                "imageUrl": "/images/dampers/damperH5.png"
+            },
+            {
+                "name": "damperV1",
+                "imageUrl": "/images/dampers/damperV1.png"
+            },
+            {
+                "name": "damperV2",
+                "imageUrl": "/images/dampers/damperV2.png"
+            },
+            {
+                "name": "damperV3",
+                "imageUrl": "/images/dampers/damperV3.png"
+            },
+            {
+                "name": "damperV4",
+                "imageUrl": "/images/dampers/damperV4.png"
+            },
+            {
+                "name": "damperV5",
+                "imageUrl": "/images/dampers/damperV5.png"
+            },
+            {
+                "name": "humidifierFalse",
+                "imageUrl": "/images/dampers/humidifierFalse.png"
+            },
+            {
+                "name": "vavDamperA1",
+                "imageUrl": "/images/dampers/vavDamperA1.png"
+            },
+            {
+                "name": "vavDamperA2",
+                "imageUrl": "/images/dampers/vavDamperA2.png"
+            },
+            {
+                "name": "vavDamperA3",
+                "imageUrl": "/images/dampers/vavDamperA3.png"
+            },
+            {
+                "name": "vavDamperA4",
+                "imageUrl": "/images/dampers/vavDamperA4.png"
+            },
+            {
+                "name": "vavDamperA5",
+                "imageUrl": "/images/dampers/vavDamperA5.png"
+            },
+            {
+                "name": "vavDamperB1",
+                "imageUrl": "/images/dampers/vavDamperB1.png"
+            },
+            {
+                "name": "vavDamperB2",
+                "imageUrl": "/images/dampers/vavDamperB2.png"
+            },
+            {
+                "name": "vavDamperB3",
+                "imageUrl": "/images/dampers/vavDamperB3.png"
+            },
+            {
+                "name": "vavDamperB4",
+                "imageUrl": "/images/dampers/vavDamperB4.png"
+            },
+            {
+                "name": "vavDamperB5",
+                "imageUrl": "/images/dampers/vavDamperB5.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Devices",
+        "items": [
+            {
+                "name": "dpsLongRightAlarm",
+                "imageUrl": "/images/devices/dpsLongRightAlarm.png"
+            },
+            {
+                "name": "dpsLongRightNorm",
+                "imageUrl": "/images/devices/dpsLongRightNorm.png"
+            },
+            {
+                "name": "dpsLongTopAlarm",
+                "imageUrl": "/images/devices/dpsLongTopAlarm.png"
+            },
+            {
+                "name": "dpsLongTopNorm",
+                "imageUrl": "/images/devices/dpsLongTopNorm.png"
+            },
+            {
+                "name": "dpsShortRightAlarm",
+                "imageUrl": "/images/devices/dpsShortRightAlarm.png"
+            },
+            {
+                "name": "dpsShortRightNorm",
+                "imageUrl": "/images/devices/dpsShortRightNorm.png"
+            },
+            {
+                "name": "dpsShortTopAlarm",
+                "imageUrl": "/images/devices/dpsShortTopAlarm.png"
+            },
+            {
+                "name": "dpsShortTopNorm",
+                "imageUrl": "/images/devices/dpsShortTopNorm.png"
+            },
+            {
+                "name": "flowSensorCircle",
+                "imageUrl": "/images/devices/flowSensorCircle.png"
+            },
+            {
+                "name": "flowSensorCross",
+                "imageUrl": "/images/devices/flowSensorCross.png"
+            },
+            {
+                "name": "humidifierFalse",
+                "imageUrl": "/images/devices/humidifierFalse.png"
+            },
+            {
+                "name": "humidifierTrue",
+                "imageUrl": "/images/devices/humidifierTrue.gif"
+            },
+            {
+                "name": "humidifierTrue_1",
+                "imageUrl": "/images/devices/humidifierTrue_1.png"
+            },
+            {
+                "name": "humidifierTrue_2",
+                "imageUrl": "/images/devices/humidifierTrue_2.png"
+            },
+            {
+                "name": "humidifierTrue_3",
+                "imageUrl": "/images/devices/humidifierTrue_3.png"
+            },
+            {
+                "name": "humidifierTrue_4",
+                "imageUrl": "/images/devices/humidifierTrue_4.png"
+            },
+            {
+                "name": "humidifierTrue_5",
+                "imageUrl": "/images/devices/humidifierTrue_5.png"
+            },
+            {
+                "name": "pipeSensorRight",
+                "imageUrl": "/images/devices/pipeSensorRight.png"
+            },
+            {
+                "name": "pipeSensorTop",
+                "imageUrl": "/images/devices/pipeSensorTop.png"
+            },
+            {
+                "name": "smokeDetectorFalse_Right",
+                "imageUrl": "/images/devices/smokeDetectorFalse_Right.png"
+            },
+            {
+                "name": "smokeDetectorFalse_Top",
+                "imageUrl": "/images/devices/smokeDetectorFalse_Top.png"
+            },
+            {
+                "name": "smokeDetectorTrue_Right",
+                "imageUrl": "/images/devices/smokeDetectorTrue_Right.png"
+            },
+            {
+                "name": "smokeDetectorTrue_Top",
+                "imageUrl": "/images/devices/smokeDetectorTrue_Top.png"
+            },
+            {
+                "name": "tempSensorRight",
+                "imageUrl": "/images/devices/tempSensorRight.png"
+            },
+            {
+                "name": "tempSensorTop",
+                "imageUrl": "/images/devices/tempSensorTop.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Ducts",
+        "items": [
+            {
+                "name": "hlend",
+                "imageUrl": "/images/ducts/hlend.png"
+            },
+            {
+                "name": "hlendGrate",
+                "imageUrl": "/images/ducts/hlendGrate.png"
+            },
+            {
+                "name": "hlendHole",
+                "imageUrl": "/images/ducts/hlendHole.png"
+            },
+            {
+                "name": "hlendSolid",
+                "imageUrl": "/images/ducts/hlendSolid.png"
+            },
+            {
+                "name": "hmid",
+                "imageUrl": "/images/ducts/hmid.png"
+            },
+            {
+                "name": "hrend",
+                "imageUrl": "/images/ducts/hrend.png"
+            },
+            {
+                "name": "hrendGrate",
+                "imageUrl": "/images/ducts/hrendGrate.png"
+            },
+            {
+                "name": "hrendHole",
+                "imageUrl": "/images/ducts/hrendHole.png"
+            },
+            {
+                "name": "hrendSolid",
+                "imageUrl": "/images/ducts/hrendSolid.png"
+            },
+            {
+                "name": "hrwhy3wayL",
+                "imageUrl": "/images/ducts/hrwhy3wayL.png"
+            },
+            {
+                "name": "hrwhy3wayMid",
+                "imageUrl": "/images/ducts/hrwhy3wayMid.png"
+            },
+            {
+                "name": "hrwhy3wayR",
+                "imageUrl": "/images/ducts/hrwhy3wayR.png"
+            },
+            {
+                "name": "hrwhyL",
+                "imageUrl": "/images/ducts/hrwhyL.png"
+            },
+            {
+                "name": "hrwhyMid",
+                "imageUrl": "/images/ducts/hrwhyMid.png"
+            },
+            {
+                "name": "hrwhyR",
+                "imageUrl": "/images/ducts/hrwhyR.png"
+            },
+            {
+                "name": "roundLEnd",
+                "imageUrl": "/images/ducts/roundLEnd.png"
+            },
+            {
+                "name": "roundLTrans",
+                "imageUrl": "/images/ducts/roundLTrans.png"
+            },
+            {
+                "name": "roundMid",
+                "imageUrl": "/images/ducts/roundMid.png"
+            },
+            {
+                "name": "roundREnd",
+                "imageUrl": "/images/ducts/roundREnd.png"
+            },
+            {
+                "name": "roundRTrans",
+                "imageUrl": "/images/ducts/roundRTrans.png"
+            },
+            {
+                "name": "tnorth",
+                "imageUrl": "/images/ducts/tnorth.png"
+            },
+            {
+                "name": "tsouth",
+                "imageUrl": "/images/ducts/tsouth.png"
+            },
+            {
+                "name": "vbend",
+                "imageUrl": "/images/ducts/vbend.png"
+            },
+            {
+                "name": "vmid",
+                "imageUrl": "/images/ducts/vmid.png"
+            },
+            {
+                "name": "vtend",
+                "imageUrl": "/images/ducts/vtend.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Equipment",
+        "items": [
+            {
+                "name": "chillerBasic",
+                "imageUrl": "/images/equipment/chillerBasic.png"
+            },
+            {
+                "name": "coolingTowerFalse",
+                "imageUrl": "/images/equipment/coolingTowerFalse.png"
+            },
+            {
+                "name": "coolingTowerTrue",
+                "imageUrl": "/images/equipment/coolingTowerTrue.gif"
+            },
+            {
+                "name": "coolingTowerTrue_1",
+                "imageUrl": "/images/equipment/coolingTowerTrue_1.png"
+            },
+            {
+                "name": "coolingTowerTrue_2",
+                "imageUrl": "/images/equipment/coolingTowerTrue_2.png"
+            },
+            {
+                "name": "coolingTowerTrue_3",
+                "imageUrl": "/images/equipment/coolingTowerTrue_3.png"
+            },
+            {
+                "name": "coolingTowerTrue_4",
+                "imageUrl": "/images/equipment/coolingTowerTrue_4.png"
+            },
+            {
+                "name": "coolingTowerTrue_5",
+                "imageUrl": "/images/equipment/coolingTowerTrue_5.png"
+            },
+            {
+                "name": "exhaustFanFalse",
+                "imageUrl": "/images/equipment/exhaustFanFalse.png"
+            },
+            {
+                "name": "exhaustFanTrue",
+                "imageUrl": "/images/equipment/exhaustFanTrue.gif"
+            },
+            {
+                "name": "exhaustFanTrue_1",
+                "imageUrl": "/images/equipment/exhaustFanTrue_1.png"
+            },
+            {
+                "name": "exhaustFanTrue_2",
+                "imageUrl": "/images/equipment/exhaustFanTrue_2.png"
+            },
+            {
+                "name": "exhaustFanTrue_3",
+                "imageUrl": "/images/equipment/exhaustFanTrue_3.png"
+            },
+            {
+                "name": "exhaustFanTrue_4",
+                "imageUrl": "/images/equipment/exhaustFanTrue_4.png"
+            },
+            {
+                "name": "exhaustFanTrue_5",
+                "imageUrl": "/images/equipment/exhaustFanTrue_5.png"
+            },
+            {
+                "name": "fanLeft_1",
+                "imageUrl": "/images/equipment/fanLeft_1.png"
+            },
+            {
+                "name": "fanLeft_2",
+                "imageUrl": "/images/equipment/fanLeft_2.png"
+            },
+            {
+                "name": "fanLeft_3",
+                "imageUrl": "/images/equipment/fanLeft_3.png"
+            },
+            {
+                "name": "fanLeft_4",
+                "imageUrl": "/images/equipment/fanLeft_4.png"
+            },
+            {
+                "name": "fanLeft_5",
+                "imageUrl": "/images/equipment/fanLeft_5.png"
+            },
+            {
+                "name": "fanLeftFalse",
+                "imageUrl": "/images/equipment/fanLeftFalse.png"
+            },
+            {
+                "name": "fanLeftTrue",
+                "imageUrl": "/images/equipment/fanLeftTrue.gif"
+            },
+            {
+                "name": "fanRight_1",
+                "imageUrl": "/images/equipment/fanRight_1.png"
+            },
+            {
+                "name": "fanRight_2",
+                "imageUrl": "/images/equipment/fanRight_2.png"
+            },
+            {
+                "name": "fanRight_3",
+                "imageUrl": "/images/equipment/fanRight_3.png"
+            },
+            {
+                "name": "fanRight_4",
+                "imageUrl": "/images/equipment/fanRight_4.png"
+            },
+            {
+                "name": "fanRight_5",
+                "imageUrl": "/images/equipment/fanRight_5.png"
+            },
+            {
+                "name": "fanRightFalse",
+                "imageUrl": "/images/equipment/fanRightFalse.png"
+            },
+            {
+                "name": "fanRightTrue",
+                "imageUrl": "/images/equipment/fanRightTrue.gif"
+            },
+            {
+                "name": "generatorFalse",
+                "imageUrl": "/images/equipment/generatorFalse.png"
+            },
+            {
+                "name": "generatorTrue",
+                "imageUrl": "/images/equipment/generatorTrue.gif"
+            },
+            {
+                "name": "generatorTrue_1",
+                "imageUrl": "/images/equipment/generatorTrue_1.png"
+            },
+            {
+                "name": "generatorTrue_2",
+                "imageUrl": "/images/equipment/generatorTrue_2.png"
+            },
+            {
+                "name": "generatorTrue_3",
+                "imageUrl": "/images/equipment/generatorTrue_3.png"
+            },
+            {
+                "name": "generatorTrue_4",
+                "imageUrl": "/images/equipment/generatorTrue_4.png"
+            },
+            {
+                "name": "generatorTrue_5",
+                "imageUrl": "/images/equipment/generatorTrue_5.png"
+            },
+            {
+                "name": "heatExchanger",
+                "imageUrl": "/images/equipment/heatExchanger.png"
+            },
+            {
+                "name": "heatExchangerPF",
+                "imageUrl": "/images/equipment/heatExchangerPF.png"
+            },
+            {
+                "name": "meterDial",
+                "imageUrl": "/images/equipment/meterDial.png"
+            },
+            {
+                "name": "meterDialLeft0",
+                "imageUrl": "/images/equipment/meterDialLeft0.png"
+            },
+            {
+                "name": "meterDialLeft1",
+                "imageUrl": "/images/equipment/meterDialLeft1.png"
+            },
+            {
+                "name": "meterDialLeft2",
+                "imageUrl": "/images/equipment/meterDialLeft2.png"
+            },
+            {
+                "name": "meterDialLeft3",
+                "imageUrl": "/images/equipment/meterDialLeft3.png"
+            },
+            {
+                "name": "meterDialLeft4",
+                "imageUrl": "/images/equipment/meterDialLeft4.png"
+            },
+            {
+                "name": "meterDialLeft5",
+                "imageUrl": "/images/equipment/meterDialLeft5.png"
+            },
+            {
+                "name": "meterDialLeft6",
+                "imageUrl": "/images/equipment/meterDialLeft6.png"
+            },
+            {
+                "name": "meterDialLeft7",
+                "imageUrl": "/images/equipment/meterDialLeft7.png"
+            },
+            {
+                "name": "meterDialLeft8",
+                "imageUrl": "/images/equipment/meterDialLeft8.png"
+            },
+            {
+                "name": "meterDialLeft9",
+                "imageUrl": "/images/equipment/meterDialLeft9.png"
+            },
+            {
+                "name": "meterDialRight0",
+                "imageUrl": "/images/equipment/meterDialRight0.png"
+            },
+            {
+                "name": "meterDialRight1",
+                "imageUrl": "/images/equipment/meterDialRight1.png"
+            },
+            {
+                "name": "meterDialRight2",
+                "imageUrl": "/images/equipment/meterDialRight2.png"
+            },
+            {
+                "name": "meterDialRight3",
+                "imageUrl": "/images/equipment/meterDialRight3.png"
+            },
+            {
+                "name": "meterDialRight4",
+                "imageUrl": "/images/equipment/meterDialRight4.png"
+            },
+            {
+                "name": "meterDialRight5",
+                "imageUrl": "/images/equipment/meterDialRight5.png"
+            },
+            {
+                "name": "meterDialRight6",
+                "imageUrl": "/images/equipment/meterDialRight6.png"
+            },
+            {
+                "name": "meterDialRight7",
+                "imageUrl": "/images/equipment/meterDialRight7.png"
+            },
+            {
+                "name": "meterDialRight8",
+                "imageUrl": "/images/equipment/meterDialRight8.png"
+            },
+            {
+                "name": "meterDialRight9",
+                "imageUrl": "/images/equipment/meterDialRight9.png"
+            },
+            {
+                "name": "meterDigital",
+                "imageUrl": "/images/equipment/meterDigital.png"
+            },
+            {
+                "name": "pumpHoriz_1",
+                "imageUrl": "/images/equipment/pumpHoriz_1.png"
+            },
+            {
+                "name": "pumpHoriz_2",
+                "imageUrl": "/images/equipment/pumpHoriz_2.png"
+            },
+            {
+                "name": "pumpHoriz_3",
+                "imageUrl": "/images/equipment/pumpHoriz_3.png"
+            },
+            {
+                "name": "pumpHoriz_4",
+                "imageUrl": "/images/equipment/pumpHoriz_4.png"
+            },
+            {
+                "name": "pumpHoriz_5",
+                "imageUrl": "/images/equipment/pumpHoriz_5.png"
+            },
+            {
+                "name": "pumpHorizFalse",
+                "imageUrl": "/images/equipment/pumpHorizFalse.png"
+            },
+            {
+                "name": "pumpHorizTrue",
+                "imageUrl": "/images/equipment/pumpHorizTrue.gif"
+            },
+            {
+                "name": "pumpVert_1",
+                "imageUrl": "/images/equipment/pumpVert_1.png"
+            },
+            {
+                "name": "pumpVert_2",
+                "imageUrl": "/images/equipment/pumpVert_2.png"
+            },
+            {
+                "name": "pumpVert_3",
+                "imageUrl": "/images/equipment/pumpVert_3.png"
+            },
+            {
+                "name": "pumpVert_4",
+                "imageUrl": "/images/equipment/pumpVert_4.png"
+            },
+            {
+                "name": "pumpVert_5",
+                "imageUrl": "/images/equipment/pumpVert_5.png"
+            },
+            {
+                "name": "pumpVertFalse",
+                "imageUrl": "/images/equipment/pumpVertFalse.png"
+            },
+            {
+                "name": "pumpVertTrue",
+                "imageUrl": "/images/equipment/pumpVertTrue.gif"
+            }
+        ]
+    },
+    {
+        "groupName": "Misc",
+        "items": [
+            {
+                "name": "arrowDown",
+                "imageUrl": "/images/misc/arrowDown.png"
+            },
+            {
+                "name": "arrowLeft",
+                "imageUrl": "/images/misc/arrowLeft.png"
+            },
+            {
+                "name": "arrowRight",
+                "imageUrl": "/images/misc/arrowRight.png"
+            },
+            {
+                "name": "arrowUp",
+                "imageUrl": "/images/misc/arrowUp.png"
+            },
+            {
+                "name": "cArrowDown",
+                "imageUrl": "/images/misc/cArrowDown.png"
+            },
+            {
+                "name": "cArrowLeft",
+                "imageUrl": "/images/misc/cArrowLeft.png"
+            },
+            {
+                "name": "cArrowRight",
+                "imageUrl": "/images/misc/cArrowRight.png"
+            },
+            {
+                "name": "cArrowUp",
+                "imageUrl": "/images/misc/cArrowUp.png"
+            },
+            {
+                "name": "cPipeArrowDown",
+                "imageUrl": "/images/misc/cPipeArrowDown.png"
+            },
+            {
+                "name": "cPipeArrowLeft",
+                "imageUrl": "/images/misc/cPipeArrowLeft.png"
+            },
+            {
+                "name": "cPipeArrowRight",
+                "imageUrl": "/images/misc/cPipeArrowRight.png"
+            },
+            {
+                "name": "cPipeArrowUp",
+                "imageUrl": "/images/misc/cPipeArrowUp.png"
+            },
+            {
+                "name": "dialSwitch2PosLeft",
+                "imageUrl": "/images/misc/dialSwitch2PosLeft.png"
+            },
+            {
+                "name": "dialSwitch2PosRight",
+                "imageUrl": "/images/misc/dialSwitch2PosRight.png"
+            },
+            {
+                "name": "dialSwitch3PosLeft",
+                "imageUrl": "/images/misc/dialSwitch3PosLeft.png"
+            },
+            {
+                "name": "dialSwitch3PosMiddle",
+                "imageUrl": "/images/misc/dialSwitch3PosMiddle.png"
+            },
+            {
+                "name": "dialSwitch3PosRight",
+                "imageUrl": "/images/misc/dialSwitch3PosRight.png"
+            },
+            {
+                "name": "hArrowDown",
+                "imageUrl": "/images/misc/hArrowDown.png"
+            },
+            {
+                "name": "hArrowLeft",
+                "imageUrl": "/images/misc/hArrowLeft.png"
+            },
+            {
+                "name": "hArrowRight",
+                "imageUrl": "/images/misc/hArrowRight.png"
+            },
+            {
+                "name": "hArrowUp",
+                "imageUrl": "/images/misc/hArrowUp.png"
+            },
+            {
+                "name": "hPipeArrowDown",
+                "imageUrl": "/images/misc/hPipeArrowDown.png"
+            },
+            {
+                "name": "hPipeArrowLeft",
+                "imageUrl": "/images/misc/hPipeArrowLeft.png"
+            },
+            {
+                "name": "hPipeArrowRight",
+                "imageUrl": "/images/misc/hPipeArrowRight.png"
+            },
+            {
+                "name": "hPipeArrowUp",
+                "imageUrl": "/images/misc/hPipeArrowUp.png"
+            },
+            {
+                "name": "pDeckFull",
+                "imageUrl": "/images/misc/pDeckFull.png"
+            },
+            {
+                "name": "pDeckLimited",
+                "imageUrl": "/images/misc/pDeckLimited.png"
+            },
+            {
+                "name": "pDeckVacancy",
+                "imageUrl": "/images/misc/pDeckVacancy.png"
+            },
+            {
+                "name": "pipeArrowDown",
+                "imageUrl": "/images/misc/pipeArrowDown.png"
+            },
+            {
+                "name": "pipeArrowLeft",
+                "imageUrl": "/images/misc/pipeArrowLeft.png"
+            },
+            {
+                "name": "pipeArrowRight",
+                "imageUrl": "/images/misc/pipeArrowRight.png"
+            },
+            {
+                "name": "pipeArrowUp",
+                "imageUrl": "/images/misc/pipeArrowUp.png"
+            },
+            {
+                "name": "testPlateDepressedMid",
+                "imageUrl": "/images/misc/testPlateDepressedMid.png"
+            },
+            {
+                "name": "textPlateDepressedLeft",
+                "imageUrl": "/images/misc/textPlateDepressedLeft.png"
+            },
+            {
+                "name": "textPlateDepressedMid",
+                "imageUrl": "/images/misc/textPlateDepressedMid.png"
+            },
+            {
+                "name": "textPlateDepressedRight",
+                "imageUrl": "/images/misc/textPlateDepressedRight.png"
+            },
+            {
+                "name": "textPlateLEDGreenFalse",
+                "imageUrl": "/images/misc/textPlateLEDGreenFalse.png"
+            },
+            {
+                "name": "textPlateLEDGreenTrue",
+                "imageUrl": "/images/misc/textPlateLEDGreenTrue.png"
+            },
+            {
+                "name": "textPlateLEDRedFalse",
+                "imageUrl": "/images/misc/textPlateLEDRedFalse.png"
+            },
+            {
+                "name": "textPlateLEDRedTrue",
+                "imageUrl": "/images/misc/textPlateLEDRedTrue.png"
+            },
+            {
+                "name": "textPlateLEDYellowFalse",
+                "imageUrl": "/images/misc/textPlateLEDYellowFalse.png"
+            },
+            {
+                "name": "textPlateLEDYellowTrue",
+                "imageUrl": "/images/misc/textPlateLEDYellowTrue.png"
+            },
+            {
+                "name": "textPlateLeft",
+                "imageUrl": "/images/misc/textPlateLeft.png"
+            },
+            {
+                "name": "textPlateMid",
+                "imageUrl": "/images/misc/textPlateMid.png"
+            },
+            {
+                "name": "textPlateRight",
+                "imageUrl": "/images/misc/textPlateRight.png"
+            },
+            {
+                "name": "thermometer",
+                "imageUrl": "/images/misc/thermometer.png"
+            },
+            {
+                "name": "thermometerSpectrum",
+                "imageUrl": "/images/misc/thermometerSpectrum.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Piping - cold",
+        "items": [
+            {
+                "name": "coldCross",
+                "imageUrl": "/images/piping/cold/coldCross.png"
+            },
+            {
+                "name": "coldElbowNE",
+                "imageUrl": "/images/piping/cold/coldElbowNE.png"
+            },
+            {
+                "name": "coldElbowNW",
+                "imageUrl": "/images/piping/cold/coldElbowNW.png"
+            },
+            {
+                "name": "coldElbowSE",
+                "imageUrl": "/images/piping/cold/coldElbowSE.png"
+            },
+            {
+                "name": "coldElbowSW",
+                "imageUrl": "/images/piping/cold/coldElbowSW.png"
+            },
+            {
+                "name": "coldEndE",
+                "imageUrl": "/images/piping/cold/coldEndE.png"
+            },
+            {
+                "name": "coldEndN",
+                "imageUrl": "/images/piping/cold/coldEndN.png"
+            },
+            {
+                "name": "coldEndS",
+                "imageUrl": "/images/piping/cold/coldEndS.png"
+            },
+            {
+                "name": "coldEndW",
+                "imageUrl": "/images/piping/cold/coldEndW.png"
+            },
+            {
+                "name": "coldHoriz",
+                "imageUrl": "/images/piping/cold/coldHoriz.png"
+            },{
+                "name": "coldTeeE",
+                "imageUrl": "/images/piping/cold/coldTeeE.png"
+            },
+            {
+                "name": "coldTeeN",
+                "imageUrl": "/images/piping/cold/coldTeeN.png"
+            },
+            {
+                "name": "coldTeeS",
+                "imageUrl": "/images/piping/cold/coldTeeS.png"
+            },
+            {
+                "name": "coldTeeW",
+                "imageUrl": "/images/piping/cold/coldTeeW.png"
+            },
+            {
+                "name": "coldVert",
+                "imageUrl": "/images/piping/cold/coldVert.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Piping - cool",
+        "items": [
+            {
+                "name": "coolCross",
+                "imageUrl": "/images/piping/cool/coolCross.png"
+            },
+            {
+                "name": "coolElbowNE",
+                "imageUrl": "/images/piping/cool/coolElbowNE.png"
+            },
+            {
+                "name": "coolElbowNW",
+                "imageUrl": "/images/piping/cool/coolElbowNW.png"
+            },
+            {
+                "name": "coolElbowSE",
+                "imageUrl": "/images/piping/cool/coolElbowSE.png"
+            },
+            {
+                "name": "coolElbowSW",
+                "imageUrl": "/images/piping/cool/coolElbowSW.png"
+            },
+            {
+                "name": "coolEndE",
+                "imageUrl": "/images/piping/cool/coolEndE.png"
+            },
+            {
+                "name": "coolEndN",
+                "imageUrl": "/images/piping/cool/coolEndN.png"
+            },
+            {
+                "name": "coolEndS",
+                "imageUrl": "/images/piping/cool/coolEndS.png"
+            },
+            {
+                "name": "coolEndW",
+                "imageUrl": "/images/piping/cool/coolEndW.png"
+            },
+            {
+                "name": "coolHoriz",
+                "imageUrl": "/images/piping/cool/coolHoriz.png"
+            },
+            {
+                "name": "coolTeeE",
+                "imageUrl": "/images/piping/cool/coolTeeE.png"
+            },
+            {
+                "name": "coolTeeN",
+                "imageUrl": "/images/piping/cool/coolTeeN.png"
+            },
+            {
+                "name": "coolTeeS",
+                "imageUrl": "/images/piping/cool/coolTeeS.png"
+            },
+            {
+                "name": "coolTeeW",
+                "imageUrl": "/images/piping/cool/coolTeeW.png"
+            },
+            {
+                "name": "coolVert",
+                "imageUrl": "/images/piping/cool/coolVert.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Piping - hot",
+        "items": [
+            {
+                "name": "hotCross",
+                "imageUrl": "/images/piping/hot/hotCross.png"
+            },
+            {
+                "name": "hotElbowNE",
+                "imageUrl": "/images/piping/hot/hotElbowNE.png"
+            },
+            {
+                "name": "hotElbowNW",
+                "imageUrl": "/images/piping/hot/hotElbowNW.png"
+            },
+            {
+                "name": "hotElbowSE",
+                "imageUrl": "/images/piping/hot/hotElbowSE.png"
+            },
+            {
+                "name": "hotElbowSW",
+                "imageUrl": "/images/piping/hot/hotElbowSW.png"
+            },
+            {
+                "name": "hotEndE",
+                "imageUrl": "/images/piping/hot/hotEndE.png"
+            },
+            {
+                "name": "hotEndN",
+                "imageUrl": "/images/piping/hot/hotEndN.png"
+            },
+            {
+                "name": "hotEndS",
+                "imageUrl": "/images/piping/hot/hotEndS.png"
+            },
+            {
+                "name": "hotEndW",
+                "imageUrl": "/images/piping/hot/hotEndW.png"
+            },
+            {
+                "name": "hotHoriz",
+                "imageUrl": "/images/piping/hot/hotHoriz.png"
+            },
+            {
+                "name": "hotTeeE",
+                "imageUrl": "/images/piping/hot/hotTeeE.png"
+            },
+            {
+                "name": "hotTeeN",
+                "imageUrl": "/images/piping/hot/hotTeeN.png"
+            },
+            {
+                "name": "hotTeeS",
+                "imageUrl": "/images/piping/hot/hotTeeS.png"
+            },
+            {
+                "name": "hotTeeW",
+                "imageUrl": "/images/piping/hot/hotTeeW.png"
+            },
+            {
+                "name": "hotVert",
+                "imageUrl": "/images/piping/hot/hotVert.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Piping - neutral",
+        "items": [
+            {
+                "name": "nCross",
+                "imageUrl": "/images/piping/neutral/nCross.png"
+            },
+            {
+                "name": "nElbowNE",
+                "imageUrl": "/images/piping/neutral/nElbowNE.png"
+            },
+            {
+                "name": "nElbowNW",
+                "imageUrl": "/images/piping/neutral/nElbowNW.png"
+            },
+            {
+                "name": "nElbowSE",
+                "imageUrl": "/images/piping/neutral/nElbowSE.png"
+            },
+            {
+                "name": "nElbowSW",
+                "imageUrl": "/images/piping/neutral/nElbowSW.png"
+            },
+            {
+                "name": "nEndE",
+                "imageUrl": "/images/piping/neutral/nEndE.png"
+            },
+            {
+                "name": "nEndN",
+                "imageUrl": "/images/piping/neutral/nEndN.png"
+            },
+            {
+                "name": "nEndS",
+                "imageUrl": "/images/piping/neutral/nEndS.png"
+            },
+            {
+                "name": "nEndW",
+                "imageUrl": "/images/piping/neutral/nEndW.png"
+            },
+            {
+                "name": "nHoriz",
+                "imageUrl": "/images/piping/neutral/nHoriz.png"
+            },
+            {
+                "name": "nTeeE",
+                "imageUrl": "/images/piping/neutral/nTeeE.png"
+            },
+            {
+                "name": "nTeeN",
+                "imageUrl": "/images/piping/neutral/nTeeN.png"
+            },
+            {
+                "name": "nTeeS",
+                "imageUrl": "/images/piping/neutral/nTeeS.png"
+            },
+            {
+                "name": "nTeeW",
+                "imageUrl": "/images/piping/neutral/nTeeW.png"
+            },
+            {
+                "name": "nVert",
+                "imageUrl": "/images/piping/neutral/nVert.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Piping - warm",
+        "items": [
+            {
+                "name": "warmCross",
+                "imageUrl": "/images/piping/warm/warmCross.png"
+            },
+            {
+                "name": "warmElbowNE",
+                "imageUrl": "/images/piping/warm/warmElbowNE.png"
+            },
+            {
+                "name": "warmElbowNW",
+                "imageUrl": "/images/piping/warm/warmElbowNW.png"
+            },
+            {
+                "name": "warmElbowSE",
+                "imageUrl": "/images/piping/warm/warmElbowSE.png"
+            },
+            {
+                "name": "warmElbowSW",
+                "imageUrl": "/images/piping/warm/warmElbowSW.png"
+            },
+            {
+                "name": "warmEndE",
+                "imageUrl": "/images/piping/warm/warmEndE.png"
+            },
+            {
+                "name": "warmEndN",
+                "imageUrl": "/images/piping/warm/warmEndN.png"
+            },
+            {
+                "name": "warmEndS",
+                "imageUrl": "/images/piping/warm/warmEndS.png"
+            },
+            {
+                "name": "warmEndW",
+                "imageUrl": "/images/piping/warm/warmEndW.png"
+            },
+            {
+                "name": "warmHoriz",
+                "imageUrl": "/images/piping/warm/warmHoriz.png"
+            },
+            {
+                "name": "warmTeeE",
+                "imageUrl": "/images/piping/warm/warmTeeE.png"
+            },
+            {
+                "name": "warmTeeN",
+                "imageUrl": "/images/piping/warm/warmTeeN.png"
+            },
+            {
+                "name": "warmTeeS",
+                "imageUrl": "/images/piping/warm/warmTeeS.png"
+            },
+            {
+                "name": "warmTeeW",
+                "imageUrl": "/images/piping/warm/warmTeeW.png"
+            },
+            {
+                "name": "warmVert",
+                "imageUrl": "/images/piping/warm/warmVert.png"
+            }
+        ]
+    },
+    {
+        "groupName": "Valves",
+        "items": [
+            {
+                "name": "cValve2wayL",
+                "imageUrl": "/images/valves/cValve2wayL.png"
+            },
+            {
+                "name": "cValve2wayLTop",
+                "imageUrl": "/images/valves/cValve2wayLTop.png"
+            },
+            {
+                "name": "cValve2wayR",
+                "imageUrl": "/images/valves/cValve2wayR.png"
+            },
+            {
+                "name": "cValve2wayRTop",
+                "imageUrl": "/images/valves/cValve2wayRTop.png"
+            },
+            {
+                "name": "cValve3wayL",
+                "imageUrl": "/images/valves/cValve3wayL.png"
+            },
+            {
+                "name": "cValve3wayLTop",
+                "imageUrl": "/images/valves/cValve3wayLTop.png"
+            },
+            {
+                "name": "cValve3wayR",
+                "imageUrl": "/images/valves/cValve3wayR.png"
+            },
+            {
+                "name": "cValve3wayRTop",
+                "imageUrl": "/images/valves/cValve3wayRTop.png"
+            },
+            {
+                "name": "globeValve2Way",
+                "imageUrl": "/images/valves/globeValve2Way.png"
+            },
+            {
+                "name": "globeValve3Way",
+                "imageUrl": "/images/valves/globeValve3Way.png"
+            },
+            {
+                "name": "gloveValve2Way",
+                "imageUrl": "/images/valves/gloveValve2Way.png"
+            },
+            {
+                "name": "hValve2wayL",
+                "imageUrl": "/images/valves/hValve2wayL.png"
+            },
+            {
+                "name": "hValve2wayLTop",
+                "imageUrl": "/images/valves/hValve2wayLTop.png"
+            },
+            {
+                "name": "hValve2wayR",
+                "imageUrl": "/images/valves/hValve2wayR.png"
+            },
+            {
+                "name": "hValve2wayRTop",
+                "imageUrl": "/images/valves/hValve2wayRTop.png"
+            },
+            {
+                "name": "hValve3wayL",
+                "imageUrl": "/images/valves/hValve3wayL.png"
+            },
+            {
+                "name": "hValve3wayLTop",
+                "imageUrl": "/images/valves/hValve3wayLTop.png"
+            },
+            {
+                "name": "hValve3wayR",
+                "imageUrl": "/images/valves/hValve3wayR.png"
+            },
+            {
+                "name": "hValve3wayRTop",
+                "imageUrl": "/images/valves/hValve3wayRTop.png"
+            }
+        ]
+    }
+]
