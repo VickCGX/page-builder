@@ -9,7 +9,7 @@ export default function Drawing() {
   // [2]
   const handleMount = (editor: Editor) => {
     editor.user.updateUserPreferences({ isDarkMode: true });
-    editor.updateInstanceState({ isGridMode: true });
+    editor.updateInstanceState({ isGridMode: false });
     setEditor(editor);
   };
 
@@ -21,7 +21,7 @@ export default function Drawing() {
           <ExternalToolbar editor={editor} />
         </div>
         <div className="flex-1 h-screen">
-          <Tldraw onMount={handleMount} />
+          <Tldraw onMount={handleMount} persistenceKey="my-persistence-key" />
         </div>
       </div>
     </div>
