@@ -37,12 +37,14 @@ import {
 } from "@/components/ui/accordion";
 import JsonToolbar from "./json-toolbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import SelectBackgound from "./select-background";
 
 export default function ExternalToolbar({ editor }: { editor: Editor | null }) {
   const currentToolId = useValue("current tool id", () => editor?.getCurrentToolId(), [editor]);
   const [geoSelected, setGeoSelected] = useState<string>("");
   const handleSelectGeo = (geoName: string) => {
     editor?.setCurrentTool("geo");
+    // @ts-ignore
     editor?.setStyleForNextShapes(GeoShapeGeoStyle, geoName);
     setGeoSelected(geoName);
   };
@@ -209,6 +211,9 @@ export default function ExternalToolbar({ editor }: { editor: Editor | null }) {
         </AccordionItem>
         <JsonToolbar />
       </Accordion>
+      <div className="flex flex-col gap-y-3 pt-3 pl-2">
+        <SelectBackgound />
+      </div>
     </ScrollArea>
   );
 }

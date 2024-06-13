@@ -1,8 +1,9 @@
-import { Editor, Tldraw } from "tldraw";
+import { Editor, TLComponents, Tldraw } from "tldraw";
 
 import "tldraw/tldraw.css";
 import { useState } from "react";
 import ExternalToolbar from "@/components/external-toolbar";
+import { CanvasBackground } from "@/components/canvas-background";
 
 export default function Drawing() {
   const [editor, setEditor] = useState<Editor | null>(null);
@@ -13,6 +14,10 @@ export default function Drawing() {
     setEditor(editor);
   };
 
+  const components: TLComponents = {
+    Background: CanvasBackground,
+  };
+
   // [3]
   return (
     <div style={{ position: "fixed", inset: 0 }}>
@@ -21,7 +26,11 @@ export default function Drawing() {
           <ExternalToolbar editor={editor} />
         </div>
         <div className="flex-1 h-screen">
-          <Tldraw onMount={handleMount} persistenceKey="my-persistence-key" />
+          <Tldraw
+            onMount={handleMount}
+            persistenceKey="my-persistence-key"
+            components={components}
+          />
         </div>
       </div>
     </div>

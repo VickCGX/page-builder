@@ -1,5 +1,7 @@
 import Drawing from "@/app/Drawing";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { initState } from "./context/DrawingState";
+import { DrawingProvider } from "./context/DrawingProvider";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +13,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <DrawingProvider initialState={initState}>
+        <RouterProvider router={router} />
+      </DrawingProvider>
     </>
   );
 }
