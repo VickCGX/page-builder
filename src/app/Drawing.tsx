@@ -4,6 +4,7 @@ import "tldraw/tldraw.css";
 import { useState } from "react";
 import ExternalToolbar from "@/components/external-toolbar";
 import { CanvasBackground } from "@/components/canvas-background";
+import DrawingContextMenu from "@/components/context-menu";
 
 export default function Drawing() {
   const [editor, setEditor] = useState<Editor | null>(null);
@@ -16,6 +17,7 @@ export default function Drawing() {
 
   const components: TLComponents = {
     Background: CanvasBackground,
+    ContextMenu: DrawingContextMenu
   };
 
   // [3]

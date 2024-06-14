@@ -25,7 +25,7 @@ export default function SelectBackgound() {
           <SelectContent>
             <SelectItem value="default">Default</SelectItem>
             {BackgroundColors.map((item) => (
-              <SelectItem value={item.color}>
+              <SelectItem value={item.color} key={item.name}>
                 <div className="flex flex-row gap-3 h-6 items-center">
                   <div style={{ backgroundColor: item.color }} className="w-4 h-4"></div>
                   <div className="flex-1">{item.name}</div>
