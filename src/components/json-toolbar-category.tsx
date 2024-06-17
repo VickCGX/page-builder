@@ -1,4 +1,4 @@
-import { ICategory } from "@/database/db";
+import { ICategory, db } from "@/database/db";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 import JsonToolbarGroup from "./json-toolbar-group";
 import {
@@ -8,21 +8,27 @@ import {
   ContextMenuTrigger,
 } from "@/components/ui/context-menu";
 import { deleteCategory } from "@/database/repositories/categories";
+import { DispatchFunctions } from "@/context/dispatchFuncs";
+import { useLiveQuery } from "dexie-react-hooks";
 
 interface JsonToolbarCategoryProps {
   category: ICategory;
-  catIndex: number;
 }
 
-export default function JsonToolbarCategory({ category, catIndex }: JsonToolbarCategoryProps) {
-  const handleEdit = () => {};
+export default function JsonToolbarCategory({ category }: JsonToolbarCategoryProps) {
+  const groups = useLiveQuery(() => db.groups.where("categoryId").equals(category.id).toArray());
+  const dispatchFuncs = new DispatchFunctions();
+  const handleEdit = () => {
+    dispatchFuncs.setOpenUpdateCategory(true);
+    dispatchFuncs.selectCategory(category);
+  };
   const handleDelete = async () => {
     if (confirm(`Are you sure want to delete category '${category.categoryName}'?`)) {
       await deleteCategory(category.id);
     }
   };
   return (
-    <AccordionItem value={`item-${catIndex + 2}`} key={category.categoryName}>
+    <AccordionItem value={`item-${category.id + 2}`} key={category.categoryName}>
       <AccordionTrigger className="p-2">
         <ContextMenu>
           <ContextMenuTrigger>{category.categoryName}</ContextMenuTrigger>
@@ -35,12 +41,11 @@ export default function JsonToolbarCategory({ category, catIndex }: JsonToolbarC
       <AccordionContent>
         <div className="pl-2">
           <Accordion type="single" collapsible>
-            {category.groups.map((group, groupIndex) => (
+            {groups && groups.map((group, groupIndex) => (
               <JsonToolbarGroup
                 group={group}
                 groupIndex={groupIndex}
-                catIndex={catIndex}
-                totalGroup={category.groups.length}
+                totalGroup={groups.length}
               />
             ))}
           </Accordion>

@@ -41,7 +41,8 @@ const formSchema = z.object({
 
 export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDialogProps) {
   const categories = useLiveQuery(() => db.categories.toArray());
-  const [groups, setGroups] = useState<IGroup[] | undefined>([]);
+  const groups = useLiveQuery(() => db.groups.toArray());
+  const [listGroup, setListGroup] = useState<IGroup[] | undefined>([]);
   const editor = useEditor();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -61,8 +62,8 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
     form.reset();
   };
   const handleSelectCat = (value: string) => {
-    const result = categories?.find((c) => c.id.toString() === value);
-    setGroups(result?.groups);
+    const result = groups?.filter(g => g.categoryId === Number(value));
+    setListGroup(result);
   };
   return (
     <>
@@ -119,7 +120,7 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                     )}
                   />
                 )}
-                {groups && groups.length > 0 && (
+                {listGroup && listGroup.length > 0 && (
                   <FormField
                     control={form.control}
                     name="group"
@@ -133,8 +134,8 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            {groups?.map((group) => (
-                              <SelectItem value={group.groupName} key={group.groupName}>
+                            {listGroup?.map((group) => (
+                              <SelectItem value={group.id.toString()} key={group.id}>
                                 {group.groupName}
                               </SelectItem>
                             ))}

@@ -3,61 +3,19 @@ import { db } from "../db";
 export const saveToDb = async (values: any, svg: string | undefined) => {
   try {
     if (values.category === "new") {
-      await db.categories.add({
-        categoryName: values.newCategory,
-        groups: [
-          {
-            groupName: values.newGroup,
-            items: [
-              {
-                name: values.imageName,
-                svg,
-              },
-            ],
-          },
-        ],
-      });
+      let cId = await db.categories.add({ categoryName: values.newCategory });
+      let gId = await db.groups.add({ categoryId: cId, groupName: values.newGroup });
+      await db.images.add({ groupId: gId, name: values.imageName, svg });
     } else {
       const category = await db.categories.get(Number(values.category));
       if (category) {
         if (values.group === "new") {
-          await db.categories.update(category!.id, {
-            ...category,
-            groups: [
-              ...category.groups, //other groups
-              //add new group
-              {
-                groupName: values.newGroup,
-                items: [
-                  {
-                    name: values.imageName,
-                    svg,
-                  },
-                ],
-              },
-            ],
-          });
+          let gId = await db.groups.add({ categoryId: category.id, groupName: values.newGroup });
+          await db.images.add({ groupId: gId, name: values.imageName, svg });
         } else {
-          const group = category.groups.find((g) => g.groupName === values.group);
-          const otherGroups = category.groups.filter((g) => g.groupName !== values.group);
+          const group = await db.groups.get(Number(values.group));
           if (group) {
-            await db.categories.update(category!.id, {
-              ...category,
-              groups: [
-                ...otherGroups,
-                {
-                  ...group,
-                  items: [
-                    ...group.items, //other items
-                    //add new item
-                    {
-                      name: values.imageName,
-                      svg,
-                    },
-                  ],
-                },
-              ],
-            });
+            await db.images.add({ groupId: group.id, name: values.imageName, svg });
           }
         }
       }
@@ -89,14 +47,21 @@ export const updateCategory = async (id: number, categoryName: string) => {
   }
 };
 
-export const deleteGroup = async (categoryId: number, groupName: string) => {
+export const deleteGroup = async (id: number) => {
   try {
-    const category = await db.categories.get(categoryId);
-    if (category) {
-      const groups = category.groups.filter((g) => g.groupName !== groupName);
-      await db.categories.update(categoryId, {
-        ...category,
-        groups,
+    await db.groups.delete(id);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const updateGroup = async (id: number, groupName: string) => {
+  try {
+    const group = await db.groups.get(id);
+    if (group) {
+      await db.groups.update(id, {
+        ...group,
+        groupName,
       });
     }
   } catch (error) {
@@ -104,88 +69,22 @@ export const deleteGroup = async (categoryId: number, groupName: string) => {
   }
 };
 
-export const updateGroup = async (categoryId: number, groupName: string, newGroupName: string) => {
+export const deleteImage = async (id: number) => {
   try {
-    const category = await db.categories.get(categoryId);
-    if (category) {
-      const group = category.groups.find((g) => g.groupName === groupName);
-      if (group) {
-        const otherGroups = category.groups.filter((g) => g.groupName !== groupName);
-        await db.categories.update(categoryId, {
-          ...category,
-          groups: [
-            ...otherGroups,
-            {
-              ...group,
-              groupName: newGroupName,
-            },
-          ],
-        });
-      }
-    }
+    await db.images.delete(id);
   } catch (error) {
     console.log(error);
   }
 };
 
-export const deleteImage = async (categoryId: number, groupName: string, imageName: string) => {
+export const updateImage = async (id: number, imageName: string) => {
   try {
-    const category = await db.categories.get(categoryId);
-    if (category) {
-      const group = category.groups.find((g) => g.groupName === groupName);
-      if (group) {
-        const otherGroups = category.groups.filter((g) => g.groupName !== groupName);
-        const otherItems = group.items.filter((i) => i.name !== imageName);
-        await db.categories.update(categoryId, {
-          ...category,
-          groups: [
-            ...otherGroups,
-            {
-              ...group,
-              items: [...otherItems],
-            },
-          ],
-        });
-      }
-    }
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-export const updateImage = async (
-  categoryId: number,
-  groupName: string,
-  imageName: string,
-  newImageName: string
-) => {
-  try {
-    const category = await db.categories.get(categoryId);
-    if (category) {
-      const group = category.groups.find((g) => g.groupName === groupName);
-      if (group) {
-        const otherGroups = category.groups.filter((g) => g.groupName !== groupName);
-        const item = group.items.find((i) => i.name === imageName);
-        const otherItems = group.items.filter((i) => i.name !== imageName);
-        if (item) {
-          await db.categories.update(categoryId, {
-            ...category,
-            groups: [
-              ...otherGroups,
-              {
-                ...group,
-                items: [
-                  ...otherItems,
-                  {
-                    ...item,
-                    name: newImageName,
-                  },
-                ],
-              },
-            ],
-          });
-        }
-      }
+    const image = await db.images.get(id);
+    if (image) {
+      await db.images.update(id, {
+        ...image,
+        name: imageName,
+      });
     }
   } catch (error) {
     console.log(error);
