@@ -4,7 +4,12 @@ import { cn } from "@/lib/utils";
 import JsonToolbarItem from "./json-toolbar-item";
 import { useLiveQuery } from "dexie-react-hooks";
 import { DispatchFunctions } from "@/context/dispatchFuncs";
-import { ContextMenu, ContextMenuContent, ContextMenuItem, ContextMenuTrigger } from "./ui/context-menu";
+import {
+  ContextMenu,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuTrigger,
+} from "./ui/context-menu";
 import { deleteGroup } from "@/database/repositories/categories";
 
 interface JsonToolbarGroupProps {
@@ -13,11 +18,7 @@ interface JsonToolbarGroupProps {
   groupIndex: number;
 }
 
-export default function JsonToolbarGroup({
-  group,
-  totalGroup,
-  groupIndex
-}: JsonToolbarGroupProps) {
+export default function JsonToolbarGroup({ group, totalGroup, groupIndex }: JsonToolbarGroupProps) {
   const images = useLiveQuery(() => db.images.where("groupId").equals(group.id).toArray());
   const dispatchFuncs = new DispatchFunctions();
   const handleEdit = () => {
@@ -45,9 +46,7 @@ export default function JsonToolbarGroup({
       </AccordionTrigger>
       <AccordionContent>
         <div className="flex flex-row gap-2 flex-wrap pl-3 pt-3">
-          {images && images.map((item) => (
-            <JsonToolbarItem item={item} />
-          ))}
+          {images && images.map((item) => <JsonToolbarItem item={item} key={item.id} />)}
         </div>
       </AccordionContent>
     </AccordionItem>

@@ -1,4 +1,3 @@
-
 import { db } from "@/database/db";
 import { useLiveQuery } from "dexie-react-hooks";
 import JsonToolbarCategory from "./json-toolbar-category";
@@ -11,7 +10,7 @@ export default function JsonToolbar() {
   return (
     <>
       {categories?.map((category) => (
-        <JsonToolbarCategory category={category} />
+        <JsonToolbarCategory category={category} key={category.id} />
       ))}
       <UpdateCategoryDialog />
       <UpdateGroupDialog />

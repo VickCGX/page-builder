@@ -41,13 +41,15 @@ export default function JsonToolbarCategory({ category }: JsonToolbarCategoryPro
       <AccordionContent>
         <div className="pl-2">
           <Accordion type="single" collapsible>
-            {groups && groups.map((group, groupIndex) => (
-              <JsonToolbarGroup
-                group={group}
-                groupIndex={groupIndex}
-                totalGroup={groups.length}
-              />
-            ))}
+            {groups &&
+              groups.map((group, groupIndex) => (
+                <JsonToolbarGroup
+                  group={group}
+                  groupIndex={groupIndex}
+                  totalGroup={groups.length}
+                  key={group.id}
+                />
+              ))}
           </Accordion>
         </div>
       </AccordionContent>
