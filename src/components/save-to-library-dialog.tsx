@@ -62,7 +62,7 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
     form.reset();
   };
   const handleSelectCat = (value: string) => {
-    const result = groups?.filter(g => g.categoryId === Number(value));
+    const result = groups?.filter((g) => g.categoryId === Number(value));
     setListGroup(result);
   };
   return (
@@ -99,7 +99,6 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                           <SelectItem value="new">Add new category...</SelectItem>
                         </SelectContent>
                       </Select>
-
                       <FormMessage />
                     </FormItem>
                   )}
@@ -114,12 +113,12 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                         <FormControl>
                           <Input placeholder="Enter category name" {...field} />
                         </FormControl>
-
                         <FormMessage />
                       </FormItem>
                     )}
                   />
                 )}
+                
                 {listGroup && listGroup.length > 0 && (
                   <FormField
                     control={form.control}
@@ -142,7 +141,6 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                             <SelectItem value="new">Add new group...</SelectItem>
                           </SelectContent>
                         </Select>
-
                         <FormMessage />
                       </FormItem>
                     )}
@@ -158,7 +156,6 @@ export default function SaveToLibraryDialog({ open, setOpen }: SaveToLibraryDial
                         <FormControl>
                           <Input placeholder="Enter group name" {...field} />
                         </FormControl>
-
                         <FormMessage />
                       </FormItem>
                     )}

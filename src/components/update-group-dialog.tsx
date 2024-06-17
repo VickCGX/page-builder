@@ -46,7 +46,7 @@ export default function UpdateGroupDialog() {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <DialogHeader>
-              <DialogTitle>Update group nane</DialogTitle>
+              <DialogTitle>Update group name</DialogTitle>
               <FormField
                 control={form.control}
                 name="groupName"

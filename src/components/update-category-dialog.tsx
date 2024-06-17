@@ -48,7 +48,7 @@ export default function UpdateCategoryDialog() {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <DialogHeader>
-              <DialogTitle>Update category nane</DialogTitle>
+              <DialogTitle>Update category name</DialogTitle>
               <FormField
                 control={form.control}
                 name="categoryName"

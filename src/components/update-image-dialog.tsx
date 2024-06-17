@@ -46,7 +46,7 @@ export default function UpdateImageDialog() {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <DialogHeader>
-              <DialogTitle>Update image nane</DialogTitle>
+              <DialogTitle>Update image name</DialogTitle>
               <FormField
                 control={form.control}
                 name="imageName"
