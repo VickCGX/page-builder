@@ -59,7 +59,7 @@ const initializeData = async () => {
           await db.images.add({
             groupId: gId,
             ...image,
-            imageUrl: `${window.location.origin}${image.imageUrl}`,
+            imageUrl: `http://localhost:5173${image.imageUrl}`,
           });
         });
       });

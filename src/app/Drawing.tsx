@@ -1,10 +1,13 @@
+import { useState } from "react";
 import { Editor, TLComponents, Tldraw } from "tldraw";
 
-import "tldraw/tldraw.css";
-import { useState } from "react";
-import ExternalToolbar from "@/components/external-toolbar";
 import { CanvasBackground } from "@/components/canvas-background";
+
+import ExternalToolbar from "@/components/external-toolbar";
+import SnapshotToolbar from "./SnapshotToolbar";
 import DrawingContextMenu from "@/components/context-menu";
+
+import "tldraw/tldraw.css";
 
 export default function Drawing() {
   const [editor, setEditor] = useState<Editor | null>(null);
@@ -17,7 +20,8 @@ export default function Drawing() {
 
   const components: TLComponents = {
     Background: CanvasBackground,
-    ContextMenu: DrawingContextMenu
+    ContextMenu: DrawingContextMenu,
+    SharePanel: SnapshotToolbar,
   };
 
   // [3]

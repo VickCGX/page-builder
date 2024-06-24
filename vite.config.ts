@@ -10,9 +10,10 @@ export default defineConfig({
       name: "pageBuilder",
       filename: "remoteEntry.js",
       exposes: {
-        "./Drawing": "./src/app/Drawing.tsx",
+        "./WrapperApp": "./src/App.tsx",
+        "./useSharedImage": "./src/atoms/ShareImage.ts",
       },
-      shared: ["react", "react-dom", "jotai"],
+      shared: ["tldraw", "react", "react-dom", "jotai"],
     }),
   ],
   resolve: {
